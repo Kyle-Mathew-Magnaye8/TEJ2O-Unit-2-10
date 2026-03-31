@@ -1,7 +1,7 @@
 """
 Created by: Kyle Matthew
 Created on: Mar 2026
-This module reads light levels and updates NeoPixels.
+This module reads the light levels and updates NeoPixels.
 """
 
 from microbit import *
