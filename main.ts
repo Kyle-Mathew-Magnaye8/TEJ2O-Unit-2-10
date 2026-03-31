@@ -2,7 +2,7 @@
  *
  * Created by: Kyle Matthew
  * Created on: Mar 2026
- * This program reads light levels and updates NeoPixels.
+ * This program reads the light levels and updates NeoPixels.
 */
 
 let lightReading = 0
