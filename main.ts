@@ -5,8 +5,9 @@
  * This program reads the light levels and updates NeoPixels.
 */
 
+// variables
 let lightReading = 0
-let strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+const strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 
 // initial setup
 basic.clearScreen()
