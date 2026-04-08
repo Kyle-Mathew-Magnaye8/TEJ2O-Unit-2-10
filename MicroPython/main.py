@@ -9,6 +9,7 @@ import neopixel
 
 # variables
 strip = neopixel.NeoPixel(pin16, 4)
+light_reading = 0
 
 # setup
 display.clear()
@@ -21,7 +22,7 @@ while True:
 
         # read the light level (0-255)
         light_reading = display.read_light_level()
-        display.scroll(str(light_reading), wait=False)
+        display.scroll(str(light_reading))
 
         # 1. start with all pixels off
         strip.clear()
